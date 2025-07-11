@@ -65,7 +65,7 @@ Blue-White-Portfolio/
 1. Clone repositori ini atau unduh sebagai ZIP
 
 ```bash
-git clone https://github.com/username/BlueWhitePortfolio.git
+git clone https://github.com/Fahroza-ploit/Blue-White-Portfolio-Template-by-Lipaved.git
 ```
 
 2. Buka file `index.html` di browser
