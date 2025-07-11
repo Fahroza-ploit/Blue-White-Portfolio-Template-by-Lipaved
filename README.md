@@ -17,7 +17,7 @@ Anda dapat memilih tema sesuai preferensi atau menyesuaikannya sendiri dengan mu
 
 | Dark Mode                                  | Light Mode                                   |
 | ------------------------------------------ | -------------------------------------------- |
-| ![Dark Mode](assets/img/thumb-dark.jpg) | ![Light Mode](assets/img/thumb-light.jpg) |
+| ![Dark Mode](assets/img/dark.jpg) | ![Light Mode](assets/img/light.jpg) |
 
 ---
 
