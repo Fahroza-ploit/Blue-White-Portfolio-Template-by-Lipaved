@@ -70,7 +70,6 @@ git clone https://github.com/Fahroza-ploit/Blue-White-Portfolio-Template-by-Lipa
 
 2. Buka file `index.html` di browser
 3. Edit konten sesuai kebutuhan Anda
-4. (Opsional) Hubungkan ke backend PHP/MySQL untuk fitur blog dinamis
 
 ---
 
