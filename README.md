@@ -25,11 +25,11 @@ Anda dapat memilih tema sesuai preferensi atau menyesuaikannya sendiri dengan mu
 
 * Desain responsif untuk semua perangkat
 * Efek transisi dan animasi halus
-* Seksi profil, pendidikan, pengalaman, dan blog
+* Seksi profil, pendidikan, pengalaman, dan formulir pesan
 * Efek zoom pada gambar
 * Tampilan glassmorphism untuk blog
 * Dukungan ikon media sosial (Instagram, TikTok, dll)
-* Formulir blog terhubung ke database (jika digunakan bersama sistem backend PHP/MySQL)
+* Formulir blog
 
 ---
 
