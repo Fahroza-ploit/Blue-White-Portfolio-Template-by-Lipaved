@@ -1,0 +1,134 @@
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        body.dark-mode {
+            background-color: #000000;
+            color: #e2e8f0;
+        }
+
+        body.dark-mode .glass-effect {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+        }
+
+        body.dark-mode .bg-white {
+            background-color: #1a202c;
+        }
+
+        body.dark-mode .text-gray-600 {
+            color: #cbd5e0;
+        }
+
+        body.dark-mode .text-gray-500 {
+            color: #a0aec0;
+        }
+
+        body.dark-mode .text-gray-700 {
+            color: #e2e8f0;
+        }
+
+        body.dark-mode footer {
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .gradient-text {
+            background: linear-gradient(to right, #007bff, #00bfff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .gradient-button-border {
+            border: 2px solid transparent;
+            background-image: linear-gradient(white, white), linear-gradient(to right, #007bff, #00bfff);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            border-radius: 9999px;
+        }
+
+        .no-select {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        /* Animasi goyang */
+        @keyframes shake {
+
+            0%,
+            100% {
+                transform: translateX(0);
+            }
+
+            25% {
+                transform: translateX(-2px);
+            }
+
+            50% {
+                transform: translateX(2px);
+            }
+
+            75% {
+                transform: translateX(-1px);
+            }
+        }
+
+        .animate-shake {
+            animation: shake 0.4s ease-in-out;
+        }
+
+        #theme-toggle {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            color: #333;
+        }
+
+        body.dark-mode #theme-toggle {
+            color: #e2e8f0;
+        }
+
+        #scroll-to-top-btn {
+            width: 56px;
+            height: 56px;
+            border-radius: 50%;
+            background: linear-gradient(to right, #007bff, #00bfff);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+
+        #scroll-to-top-btn.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
