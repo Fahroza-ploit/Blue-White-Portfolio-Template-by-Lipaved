@@ -85,8 +85,8 @@ Template ini dirilis di bawah lisensi **MIT**. Anda bebas menggunakan, memodifik
 Website & Front-End Developer
 📫 Instagram: [@lipaved](https://instagram.com/lipaved)
 🎵 TikTok: [@lipaved](https://tiktok.com/@lipaved)
-✉️ Email: [info@alifafvedfahroza.site](mailto:info@alifafvedfahroza.site)
-🌐 Website: [https://alifafvedfahroza.site](https://alifafvedfahroza.site)
+✉️ Email: [info@mail.fahroza.web.id](mailto:info@fahroza.web.id)
+🌐 Website: [https://fahroza.web.id](https://fahroza.web.id)
 
 ---
 
